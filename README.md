@@ -1,15 +1,32 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This next.js app runs on BUN!
+
+## Description
+
+The purpose of this app is to create a proof-of-concept and run a next.js app on Bun.sh.
+
+Full details of this technical spike and information about Bun, and other JavaScript environment alternative can be found here:
+
+[Tech Spike - Using an alternative JS runtime environment to improve app performance](https://play-auris.notion.site/Tech-Spike-Using-an-alternative-JS-runtime-environment-to-improve-app-performance-64186448f04b4708b0498857ed3acbc5?pvs=4)
+
+## Problem
+
+Define the problem or issue you need to investigate. What specific technical challenge do you need to address? What is the goal of the technical spike?
+
+Currently, we have some apps and parts of our system that have degraded, slower performance. Most notable, where we want best in class performance is the landing page, and the narration widget. For this particular spike we are focusing optimization efforts on the JavaScript runtime environment itself.
+
+## Scope of Spike
+
+Identify the scope of the technical spike. What specific areas of the codebase or infrastructure will be investigated? What are the boundaries of the spike?
+
+We want to understand that if we change our javascript run time framework, weather it would have meaningful impact to app performance. In other words, if we got next.JS to run on something better than the default node.JS.
 
 ## Getting Started
 
 First, run the development server:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+bun run dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
@@ -17,18 +34,3 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
