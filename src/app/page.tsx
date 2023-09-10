@@ -38,6 +38,25 @@ export default function Home() {
           priority
         />
       </div>
+      <Image
+        src="https://storage.googleapis.com/images-kkg-prd-dbdfdde.kkg.prd.v8.commerce.mi9cloud.com/product-images/zoom/2baba777-70ba-437f-b758-f727905c2789.jpeg"
+        alt="bun"
+        width={"700"}
+        height={"500"}
+      />
+      <div>
+        <h1>Wow I Cant believe its not Node.JS</h1>
+        <p>The speed of bun.sh is absolute insane how fast it is!</p>
+        <a href="https://play-auris.notion.site/Tech-Spike-Using-an-alternative-JS-runtime-environment-to-improve-app-performance-64186448f04b4708b0498857ed3acbc5?pvs=4">
+          <h3>Read more about this Bun in the Oven POC here</h3>
+        </a>
+      </div>
+      <Image
+        src="https://i.ytimg.com/vi/Rp5yvwX7orE/maxresdefault.jpg"
+        alt="bun"
+        width={"700"}
+        height={"500"}
+      />
 
       <Image
         src="https://asianinspirations.com.au/wp-content/uploads/2019/06/R02325_Chinese_Steamed_Pork_Buns.jpg"
@@ -65,6 +84,7 @@ export default function Home() {
         width={"700"}
         height={"500"}
       />
+      <h2>OH and this is deployed on Vercel running on BUN.sh!</h2>
     </main>
   );
 }

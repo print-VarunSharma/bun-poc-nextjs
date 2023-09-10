@@ -6,6 +6,7 @@ const nextConfig = {
       "platform.sh",
       "techsparx.com",
       "i.ytimg.com",
+      "storage.googleapis.com",
     ],
   },
 };
